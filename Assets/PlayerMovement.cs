@@ -10,7 +10,7 @@ public class PlayerMovement : MonoBehaviour
         {
             transform.Translate(transform.up * speed * Time.deltaTime);
         }
-        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow)) ;
+        if (Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
 
         {
 
